@@ -13,5 +13,11 @@ class Program
         product1.ShowInfo();
         Console.WriteLine("Второй товар:");
         product2.ShowInfo();
+
+        // Задание 2: Класс FuelTank
+        FuelTank tank = new FuelTank("A1");
+        tank.Refuel(50);
+        tank.Consume(20);
+        tank.ShowLevel();
     }
 }
