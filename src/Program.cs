@@ -19,5 +19,10 @@ class Program
         tank.Refuel(50);
         tank.Consume(20);
         tank.ShowLevel();
+
+        // Задание 3: Класс Elevator
+        Elevator elevator = new Elevator("Otis", 15);
+        elevator.MoveUp(10);
+        elevator.Reset();
     }
 }
